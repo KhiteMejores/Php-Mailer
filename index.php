@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="send.php" method="POST">
+        Email: <input type="email" name="email" value=""><br>
+        Subject <input type="text" name="subject"><br>
+        Message <textarea type="text" name="message" id=""></textarea> <br>
+        <button type="submit" name="send">Send</button>
+    </form>
+</body>
+</html>
